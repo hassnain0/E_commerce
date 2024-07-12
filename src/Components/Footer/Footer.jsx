@@ -5,6 +5,7 @@ import instagram_icon from "../Assets/instagram_icon.png";
 import pintester_icon from "../Assets/pintester_icon.png";
 import whatsapp_icon from "../Assets/whatsapp_icon.png";
 const Footer = () => {
+  return(
   <div className="footer">
     <div className="footer-logo">
       <img src={footer_logo} alt="" />
@@ -12,7 +13,7 @@ const Footer = () => {
     </div>
     <ul className="footer-links">
       <li>Company</li>
-      <li>Products</li>
+      <li>Products</li> 
       <li>Offices</li>
       <li>About</li>
       <li>Contact</li>
@@ -32,7 +33,7 @@ const Footer = () => {
       <hr />
       <p>Copyright @2023 - All Right Reserved</p>
     </div>
-  </div>;
-};
+  </div>
+)};
 
 export default Footer;
